@@ -14,13 +14,13 @@ int main()
     unsigned char result;
     
     int alpha = int(8);
-    int beta = int(5);
-    int gamma = int(5);
+    int beta = int(10);
+    int gamma = int(10);
     double x = double(0.352346764576);
     double r = double(3.86);
     int quantity = 100000;
     
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 30; i++) {
         int c = 0;
 
         trueRandomNumberGenerator(ref(x), ref(r), ref(alpha), ref(beta), ref(gamma), ref(c));
